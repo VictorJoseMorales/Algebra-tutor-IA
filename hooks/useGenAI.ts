@@ -3,7 +3,7 @@ import { GoogleGenAI, LiveServerMessage, Modality, FunctionDeclaration, Type } f
 import { Message, AlgebraProblem, ProgressData, TrackProgressArgs } from '../types';
 import { usePersistence } from './usePersistence';
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const algebraTools: FunctionDeclaration[] = [
     {
