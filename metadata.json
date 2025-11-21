@@ -1,0 +1,8 @@
+{
+  "name": "Álgebra Tutor AI",
+  "description": "An interactive AI-powered algebra tutor that uses your camera and microphone to provide a personalized and engaging learning experience, adapting to your focus and emotional state.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
